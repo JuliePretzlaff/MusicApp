@@ -1,0 +1,25 @@
+﻿@model IEnumerable<MusicApp.Models.Artist>
+<link href="~/Content/artiststyle.css" rel="stylesheet" />
+@{
+    ViewBag.Title = "Artists";
+}
+
+<h2>Artists</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-4 col-xs-12">
+            <div class="thumbnail">
+
+               <h3>@Html.DisplayFor(modelItem => item.ArtistName)</h3>
+                <img id="artist-img" src="@Html.DisplayFor(modelItem => item.ArtistPhoto)" />
+                @Html.ActionLink("Details", "Details", new { id = item.ArtistID })
+            </div>
+        </div>
+    }
+</div>

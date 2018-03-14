@@ -22,3 +22,39 @@ select,
 textarea {
     max-width: 280px;
 }
+h2{
+    color:antiquewhite;
+    font-size: 4rem;
+    text-align: center;
+}
+footer{
+    color: antiquewhite;
+    text-align: center;
+}
+a{
+    color:coral;
+    font-weight: bold;
+    margin-left: 45%;
+}
+a:hover{
+    color: cornflowerblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+p{
+    color: antiquewhite;
+    font-size: 2rem;
+}
+div.thumbnail{
+    background-color: darkslategrey;
+    border-color: darkslategrey;
+}
+h3{
+    font-size: 2rem;
+    color: crimson;
+    text-align: center;
+}
+img#artist-img{
+    height: 250px;
+
+}
