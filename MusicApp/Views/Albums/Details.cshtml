@@ -4,55 +4,51 @@
     ViewBag.Title = "Details";
 }
 
-<h2>Details</h2>
+<h2>Album Details</h2>
 
-<div>
-    <h4>Album</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.ReleaseYear)
-        </dt>
+<div class="row">
+    <img id="album-img" src="@Html.DisplayFor(model => model.AlbumPhoto)" />
 
-        <dd>
-            @Html.DisplayFor(model => model.ReleaseYear)
-        </dd>
+ 
+    </div>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.WonAward)
-        </dt>
+    <div class="col-4">
+        <div class="thumbnail">
+            <h4>
+                @Html.DisplayNameFor(model => model.ReleaseYear)
+            </h4>
 
-        <dd>
-            @Html.DisplayFor(model => model.WonAward)
-        </dd>
+            <p class="details">
+                @Html.DisplayFor(model => model.ReleaseYear)
+            </p>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.AlbumPhoto)
-        </dt>
+            <h4>
+                @Html.DisplayNameFor(model => model.WonAward)
+            </h4>
 
-        <dd>
-            @Html.DisplayFor(model => model.AlbumPhoto)
-        </dd>
+            <p class="details">
+                @Html.DisplayFor(model => model.WonAward)
+            </p>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.BestHit)
-        </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.BestHit)
-        </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Artist.ArtistName)
-        </dt>
+            <h4>
+                @Html.DisplayNameFor(model => model.BestHit)
+            </h4>
 
-        <dd>
-            @Html.DisplayFor(model => model.Artist.ArtistName)
-        </dd>
+            <p class="details">
+                @Html.DisplayFor(model => model.BestHit)
+            </p>
+        </div>
+    </div>
 
-    </dl>
+
+
+
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.AlbumID })
+    </p>
+    <p>
+        @Html.ActionLink("Back to List", "Index")
+    </p>
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.AlbumID }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>

@@ -1,6 +1,7 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: #5b0b0b;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -22,19 +23,25 @@ select,
 textarea {
     max-width: 280px;
 }
-h2{
-    color:antiquewhite;
-    font-size: 4rem;
-    text-align: center;
-}
-footer{
+h2 {
     color: antiquewhite;
+    font-size: 6rem;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+footer {
+    color: antiquewhite;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
-a{
-    color:coral;
+p#footer{
+    font-size: 1rem;
+}
+a {
+    color: #cc4545;
     font-weight: bold;
     margin-left: 45%;
+    text-shadow: 1px 1px black;
 }
 a:hover{
     color: cornflowerblue;
@@ -45,16 +52,45 @@ p{
     color: antiquewhite;
     font-size: 2rem;
 }
+    p#by {
+        color: antiquewhite;
+        font-size: 1rem;
+        text-align: center;
+       
+        margin-top: 5%;
+    }
 div.thumbnail{
     background-color: darkslategrey;
     border-color: darkslategrey;
+    margin-top: 5vh;
 }
-h3{
+h3 {
     font-size: 2rem;
-    color: crimson;
+    color: #5b0b0b;
     text-align: center;
+    font-weight: bold;
 }
+    h3#by {
+        font-size: 2rem;
+        color: #5b0b0b;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 0;
+    }
 img#artist-img{
-    height: 250px;
+    height: 35vh;;
+
+}
+img#album-img{
+    height: 50vh;
+    margin-left: 38%;
+}
+h4 {
+    font-size: 2rem;
+    color: #5b0b0b;
+    font-weight: bold;
+}
+p.details{
+    color: antiquewhite;
 
 }

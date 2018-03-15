@@ -188,8 +188,17 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\images\artistbg.jpg" />
     <Content Include="Content\images\nahko.jpg" />
+    <Content Include="Content\images\nahkodarkasnight.jpg" />
+    <Content Include="Content\images\nahkohoka.jpg" />
+    <Content Include="Content\images\nahkomynameisbear.jpg" />
     <Content Include="Content\images\tempertrap.jpg" />
+    <Content Include="Content\images\tempertrapconditions.jpg" />
+    <Content Include="Content\images\tempertraptempertrap.jpg" />
+    <Content Include="Content\images\tempertrapthickastheives.jpg" />
     <Content Include="Content\images\U2.jpg" />
+    <Content Include="Content\images\u2joshuatree.jpg" />
+    <Content Include="Content\images\u2nolineonthehorizon.jpg" />
+    <Content Include="Content\images\u2songsofinnocence.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
